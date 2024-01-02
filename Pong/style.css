@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+    text-align: center;
+}
+
+.canvas{
+    background-color: rgb(61, 61, 61);
+    margin: 1rem;
+    width: 55%;
+}
+
+.score{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.winner1 h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: greenyellow;
+    text-shadow: 0 2px 5px rgb(196, 255, 173);
+}
+
+.winner2 h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 2px 5px rgb(255, 135, 135);
+}
+
+.player1 h3{
+    padding-right: 5rem;
+    color: greenyellow;
+}
+
+.player2 h3{
+    padding-left: 5rem;
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+    .canvas{
+        width: 90%;
+    }
+}
